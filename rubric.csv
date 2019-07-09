@@ -1,0 +1,19 @@
+,Weight,0,1,2
+Correctness, ,,,
+The program compiles and runs successfully.,10,The requirement is not met.,The requirement is partially met - there are errors or some required features are missing.,The requirement is met completely and correctly.
+Multiple shapes can be drawn.,10,The requirement is not met.,The requirement is partially met - there are errors or some required features are missing.,The requirement is met completely and correctly.
+A linked list exists for storing Shape* and is used for rendering.,10,The requirement is not met.,The requirement is partially met - there are errors or some required features are missing.,The requirement is met completely and correctly.
+Line and rectangle modes are implemented.,5,The requirement is not met.,The requirement is partially met - there are errors or some required features are missing.,The requirement is met completely and correctly.
+Each shape has a random color.,5,The requirement is not met.,The requirement is partially met - there are errors or some required features are missing.,The requirement is met completely and correctly.
+Shape deletion is implemented.,5,The requirement is not met.,The requirement is partially met - there are errors or some required features are missing.,The requirement is met completely and correctly.
+Rendering order can be toggled.,5,The requirement is not met.,The requirement is partially met - there are errors or some required features are missing.,The requirement is met completely and correctly.
+, ,,,
+Code, ,,,
+All dynamically allocated memory is freed.,10,The requirement is not met.,The requirement is partially met - there are errors or some required features are missing.,The requirement is met completely and correctly.
+Code is written such that functions are reused.,5,The requirement is not met.,The requirement is partially met - there are errors or some required features are missing.,The requirement is met completely and correctly.
+, ,,,
+Style, ,,,
+The code is adequately documented.,5,The requirement is not met.,The requirement is partially met - there are errors or some required features are missing.,The requirement is met completely and correctly.
+Lines are within 80 characters.,5,The requirement is not met.,The requirement is partially met - there are errors or some required features are missing.,The requirement is met completely and correctly.
+There are no long functions other than main().,5,The requirement is not met.,The requirement is partially met - there are errors or some required features are missing.,The requirement is met completely and correctly.
+The code has a consistent and readable style.,5,The requirement is not met.,The requirement is partially met - there are errors or some required features are missing.,The requirement is met completely and correctly.

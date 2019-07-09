@@ -1,0 +1,57 @@
+\documentclass[addpoints]{exam}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows, arrows.meta}
+
+% Header and footer.
+\pagestyle{headandfoot}
+\runningheadrule
+\runningfootrule
+\runningheader{CS 224}{A Drawing Program}{Summer 2019}
+\runningfooter{}{Page \thepage\ of \numpages}{}
+\firstpageheader{}{}{}
+
+\qformat{{\large\bf \thequestiontitle}\hfill}
+\boxedpoints
+% \printanswers
+
+
+\title{Homework 3: A Drawing Program}
+\author{CS 224 Object Oriented Programming and Design Methodologies\\Habib University\\Summer 2019}
+\date{Due: 20h on Wednesday, 17 July}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+This assignment introduces SDL which is a C++ library for game development. We will use it later for our project. You will need to read the \href{http://lazyfoo.net/tutorials/SDL/}{SDL tutorials}. Lessons 1 and 6 contain instructions on setting up \texttt{SDL} and the extension library, \texttt{SDL\_image}, which are needed for this assignment.
+
+\begin{questions}
+\titledquestion{A Drawing Program}
+
+In this assignment, you will be creating a drawing program. A basic version is provided in the accompanying folder \texttt{Artistik}. When run, it launches a white window in which you can draw a red rectangle by left clicking the mouse, dragging, then releasing. 
+
+Your will be extending this program as follows. Currently, every new shape overwrites the previous one. When you are done, the program will render each shape as either a line or a rectangle and all drawn shapes will be rendered. The user will be able to reset the window to clear all the drawn shapes and draw new ones. Each shape will be of a different color.
+
+Your tasks are as follows.
+\begin{parts}
+\part Read the SDL tutorials up to Lesson 10 in order to understand and run the given code.
+\part Declare a \texttt{Shape} class and inherit the classes \texttt{Rect} and \texttt{Line} from it. Line drawing is covered in the SDL tutorials above.
+\part Write a linked list in which each node stores a \texttt{Shape*}. Every added shape is stored in this list.
+\part Allow the user to switch between \textit{line} and \textit{rectangle} mode. Line mode will be specified by pressing \texttt{l} or \texttt{L} and rectangle mode by pressing \texttt{m} or \texttt{M}.
+\part Assign a random color to each newly drawn shape. Use the \texttt{Color} object in \texttt{Shape} for the purpose.
+\part Allow the user to delete the most recently drawn shape by pressing \texttt{d} or \texttt{D}. Shapes can be deleted until no shapes are left, after which deleting has no effect.
+\part Allow the user to switch the rendering order of the shapes. By default, shapes are rendered in the order in which they are added. That is, the more recent shape is rendered later and ends up occluding the overlapping portions of any previous shapes. Pressing \texttt{s} or \textsf{S} switches the rendering order.
+\part Ensure that there are no memory leaks. 
+\end{parts}
+
+\titledquestion{Credits}
+
+This assignment is courtesy of \href{https://habib.edu.pk/SSE/dr-umair-azfar-khan/}{Dr. Umair Azfar Khan}.
+
+\end{questions}
+
+\end{document}
