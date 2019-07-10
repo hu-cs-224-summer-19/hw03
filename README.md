@@ -41,7 +41,7 @@ There are 3 parts to the submission.
 
 The problem is to be solved by adding to the files and introducing new files as appropriate in the accompanying folder, `Artistik`. The code is to be submitted to GitHub by the specified deadline. Any and all files in your GitHub repository in the `Artistik` folder at the time of the deadline will be considered as your submission. Your submission will be peer reviewed so please do not include any identifying information in it.
 
-_Deadline_: 20h on Wednesday, 17 July on [GitHub Classroom](XXX).
+_Deadline_: 20h on Wednesday, 17 July on [GitHub Classroom](https://classroom.github.com/g/tSor9Nzo).
 
 #### 2. Feedback Form
 Every student has to submit feedback on the homework at [`LMS -> Tests & Quizzes`](http://lms.habib.edu.pk/x/8j9mrjx). The deadline is at the same time as the problem set.
